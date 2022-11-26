@@ -18,7 +18,7 @@
 
 #ifdef USE_ATOMICS_BUILTINS64
 
-#if defined(__arm__) || defined(__powerpc__) || defined(__powerpc64__)
+#if defined(__arm__) || defined(__powerpc__) || defined(__powerpc64__) || defined(__POWERPC__)
 #define WEAK_MEMORY_ORDERING 1
 #else
 #define WEAK_MEMORY_ORDERING 0
